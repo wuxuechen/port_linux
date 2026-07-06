@@ -1,0 +1,3 @@
+common/exports.c:8:37:dummy	0	static
+common/exports.c:12:15:get_version	0	static
+common/exports.c:26:6:jumptable_init	8	static

@@ -1,0 +1,4 @@
+drivers/mtd/spi/sf.c:13:12:spi_flash_read_write	32	static
+drivers/mtd/spi/sf.c:43:5:spi_flash_cmd_read	16	static
+drivers/mtd/spi/sf.c:49:5:spi_flash_cmd	24	static
+drivers/mtd/spi/sf.c:54:5:spi_flash_cmd_write	16	static

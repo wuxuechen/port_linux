@@ -1,0 +1,2 @@
+arch/arm/imx-common/i2c-mxv7.c:16:5:force_idle_bus	32	static
+arch/arm/imx-common/i2c-mxv7.c:100:5:setup_i2c	48	static

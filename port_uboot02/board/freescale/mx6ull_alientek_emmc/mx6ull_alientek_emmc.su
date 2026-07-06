@@ -1,0 +1,16 @@
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:765:6:do_enable_parallel_lcd	8	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:184:6:iox74lv_set	24	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:242:5:power_init_board	0	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:323:5:dram_init	8	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:446:5:board_mmc_get_env_dev	0	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:454:5:mmc_map_to_kernel_blk	0	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:462:5:board_mmc_getcd	8	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:494:5:board_mmc_init	24	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:574:5:board_usb_phy_mode	0	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:582:5:board_ehci_hcd_init	0	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:678:5:board_eth_init	8	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:716:5:board_phy_config	24	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:803:5:board_early_init_f	8	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:810:5:board_init	16	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:852:5:board_late_init	8	static
+board/freescale/mx6ull_alientek_emmc/mx6ull_alientek_emmc.c:876:5:checkboard	8	static
