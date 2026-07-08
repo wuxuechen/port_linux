@@ -9,7 +9,7 @@ deps_drivers/net/phy/micrel.o := \
     $(wildcard include/config/master.h) \
   include/config.h \
     $(wildcard include/config/imx/config.h) \
-    $(wildcard include/config/mx6ull/alientek/emmc/rework.h) \
+    $(wildcard include/config/mx6ull/evk/emmc/rework.h) \
     $(wildcard include/config/boarddir.h) \
   include/config_defaults.h \
     $(wildcard include/config/defaults/h/.h) \
@@ -41,7 +41,7 @@ deps_drivers/net/phy/micrel.o := \
     $(wildcard include/config/dm/spi.h) \
     $(wildcard include/config/dm/warn.h) \
     $(wildcard include/config/dm/stdio.h) \
-  include/configs/mx6ull_alientek_emmc.h \
+  include/configs/mx6ullevk.h \
     $(wildcard include/config/h.h) \
     $(wildcard include/config/use/plugin.h) \
     $(wildcard include/config/secure/boot.h) \
