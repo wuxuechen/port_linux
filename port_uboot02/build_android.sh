@@ -24,7 +24,7 @@ echo "[2/4] check toolchain..."
 $CROSS_COMPILE"gcc" -v | head -n 3
 
 echo "[3/4] build defconfig..."
-make mx6ull_14x14_evk_emmc_defconfig HOSTCC=gcc
+make mx6ull_alientek_emmc_defconfig HOSTCC=gcc
 
 echo "[4/4] compiling..."
 make -j$(nproc) HOSTCC=gcc

@@ -603,6 +603,7 @@ static void setup_iomux_fec(int fec_id)
 		mdelay(20);
 		gpio_set_value(ENET2_RESET, 1);
 	}
+	mdelay(150);
 }
 
 int board_eth_init(bd_t *bis)
@@ -807,7 +808,7 @@ int checkboard(void)
 	else
 		puts("Board: MX6ULL 14x14 EVK\n");
 */
-		puts("Board: Alpha EMMC\n");
+		puts("Board: Alpha EMMC Joseph!!!\n");
 
 	return 0;
 }

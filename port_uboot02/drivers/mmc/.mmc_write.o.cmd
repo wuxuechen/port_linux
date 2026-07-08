@@ -5,7 +5,7 @@ source_drivers/mmc/mmc_write.o := drivers/mmc/mmc_write.c
 deps_drivers/mmc/mmc_write.o := \
   include/config.h \
     $(wildcard include/config/imx/config.h) \
-    $(wildcard include/config/mx6ull/evk/emmc/rework.h) \
+    $(wildcard include/config/mx6ull/alientek/emmc/rework.h) \
     $(wildcard include/config/boarddir.h) \
   include/config_defaults.h \
     $(wildcard include/config/defaults/h/.h) \
@@ -37,7 +37,7 @@ deps_drivers/mmc/mmc_write.o := \
     $(wildcard include/config/dm/spi.h) \
     $(wildcard include/config/dm/warn.h) \
     $(wildcard include/config/dm/stdio.h) \
-  include/configs/mx6ullevk.h \
+  include/configs/mx6ull_alientek_emmc.h \
     $(wildcard include/config/h.h) \
     $(wildcard include/config/use/plugin.h) \
     $(wildcard include/config/secure/boot.h) \
