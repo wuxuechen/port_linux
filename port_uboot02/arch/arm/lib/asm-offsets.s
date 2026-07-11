@@ -10,11 +10,11 @@
 	.eabi_attribute 34, 0	@ Tag_CPU_unaligned_access
 	.eabi_attribute 18, 4	@ Tag_ABI_PCS_wchar_t
 	.file	"asm-offsets.c"
-@ GNU C23 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (arm-linux-gnueabihf)
-@	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+@ GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04.1) version 13.3.0 (arm-linux-gnueabihf)
+@	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
 
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-@ options passed: -D_FORTIFY_SOURCE=3 -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -mno-unaligned-access -mfloat-abi=soft -mtls-dialect=gnu -march=armv7-a -g -Os -fno-builtin -ffreestanding -fno-stack-protector -fno-delete-null-pointer-checks -fstack-usage -fno-pic -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -fzero-init-padding-bits=all
+@ options passed: -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -mno-unaligned-access -mfloat-abi=soft -mtls-dialect=gnu -march=armv7-a -g -Os -fno-builtin -ffreestanding -fno-stack-protector -fno-delete-null-pointer-checks -fstack-usage -fno-pic -ffunction-sections -fdata-sections -fno-common -ffixed-r9
 	.text
 .Ltext0:
 	.cfi_sections	.debug_frame
@@ -44,7 +44,7 @@ main:
 .Letext0:
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
-	.4byte	0x92
+	.4byte	0x8d
 	.2byte	0x5
 	.byte	0x1
 	.byte	0x4
@@ -52,8 +52,6 @@ main:
 	.uleb128 0x2
 	.4byte	.LASF11
 	.byte	0x1d
-	.byte	0x3
-	.4byte	0x31647
 	.4byte	.LASF12
 	.4byte	.LASF13
 	.4byte	.LLRL0
@@ -112,7 +110,7 @@ main:
 	.byte	0x1
 	.byte	0x17
 	.byte	0x5
-	.4byte	0x47
+	.4byte	0x42
 	.4byte	.LFB152
 	.4byte	.LFE152-.LFB152
 	.uleb128 0x1
@@ -138,10 +136,6 @@ main:
 	.uleb128 0xe
 	.uleb128 0x13
 	.uleb128 0xb
-	.uleb128 0x90
-	.uleb128 0xb
-	.uleb128 0x91
-	.uleb128 0x6
 	.uleb128 0x3
 	.uleb128 0xe
 	.uleb128 0x1b
@@ -228,25 +222,16 @@ main:
 	.ascii	"unsigned int\000"
 .LASF12:
 	.ascii	"arch/arm/lib/asm-offsets.c\000"
+.LASF13:
+	.ascii	"/home/autumn/Documents/port_linux/port_uboot02\000"
 .LASF1:
 	.ascii	"long unsigned int\000"
-.LASF13:
-	.ascii	"/root/port_linux/port_uboot02\000"
 .LASF9:
 	.ascii	"long long unsigned int\000"
 .LASF0:
 	.ascii	"unsigned char\000"
 .LASF14:
 	.ascii	"main\000"
-.LASF11:
-	.ascii	"GNU C23 15.2.0 -D_FORTIFY_SOURCE=3 -marm -mno-thumb"
-	.ascii	"-interwork -mabi=aapcs-linux -mword-relocations -mn"
-	.ascii	"o-unaligned-access -mfloat-abi=soft -mtls-dialect=g"
-	.ascii	"nu -march=armv7-a -g -Os -fno-builtin -ffreestandin"
-	.ascii	"g -fno-stack-protector -fno-delete-null-pointer-che"
-	.ascii	"cks -fstack-usage -fno-pic -ffunction-sections -fda"
-	.ascii	"ta-sections -fno-common -ffixed-r9 -fzero-init-padd"
-	.ascii	"ing-bits=all\000"
 .LASF4:
 	.ascii	"long int\000"
 .LASF2:
@@ -255,9 +240,17 @@ main:
 	.ascii	"signed char\000"
 .LASF10:
 	.ascii	"long double\000"
+.LASF11:
+	.ascii	"GNU C17 13.3.0 -marm -mno-thumb-interwork -mabi=aap"
+	.ascii	"cs-linux -mword-relocations -mno-unaligned-access -"
+	.ascii	"mfloat-abi=soft -mtls-dialect=gnu -march=armv7-a -g"
+	.ascii	" -Os -fno-builtin -ffreestanding -fno-stack-protect"
+	.ascii	"or -fno-delete-null-pointer-checks -fstack-usage -f"
+	.ascii	"no-pic -ffunction-sections -fdata-sections -fno-com"
+	.ascii	"mon -ffixed-r9\000"
 .LASF8:
 	.ascii	"short int\000"
 .LASF5:
 	.ascii	"char\000"
-	.ident	"GCC: (Ubuntu 15.2.0-16ubuntu1) 15.2.0"
+	.ident	"GCC: (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
 	.section	.note.GNU-stack,"",%progbits

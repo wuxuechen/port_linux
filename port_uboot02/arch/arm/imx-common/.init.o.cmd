@@ -1,4 +1,4 @@
-cmd_arch/arm/imx-common/init.o := arm-linux-gnueabihf-gcc -Wp,-MD,arch/arm/imx-common/.init.o.d -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include -Iinclude   -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(init)"  -D"KBUILD_MODNAME=KBUILD_STR(init)" -c -o arch/arm/imx-common/init.o arch/arm/imx-common/init.c
+cmd_arch/arm/imx-common/init.o := arm-linux-gnueabihf-gcc -Wp,-MD,arch/arm/imx-common/.init.o.d -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include -Iinclude   -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(init)"  -D"KBUILD_MODNAME=KBUILD_STR(init)" -c -o arch/arm/imx-common/init.o arch/arm/imx-common/init.c
 
 source_arch/arm/imx-common/init.o := arch/arm/imx-common/init.c
 
@@ -15,7 +15,7 @@ deps_arch/arm/imx-common/init.o := \
   arch/arm/include/asm/types.h \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include/stdbool.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/compiler.h \
@@ -421,7 +421,7 @@ deps_arch/arm/imx-common/init.o := \
   arch/arm/include/asm/ptrace.h \
   arch/arm/include/asm/proc-armv/ptrace.h \
     $(wildcard include/config/arm/thumb.h) \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include/stdarg.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   include/linux/kernel.h \
   include/part.h \
     $(wildcard include/config/lba48.h) \
@@ -466,7 +466,7 @@ deps_arch/arm/imx-common/init.o := \
     $(wildcard include/config/fit/best/match.h) \
     $(wildcard include/config/android/boot/image.h) \
   include/compiler.h \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include/stddef.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
   include/lmb.h \
   arch/arm/include/asm/u-boot.h \
   include/asm-generic/u-boot.h \

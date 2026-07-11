@@ -1,7 +1,7 @@
 drivers/mmc/fsl_esdhc.c:649:12:esdhc_getcd	16	static
 drivers/mmc/fsl_esdhc.c:569:13:esdhc_set_ios	32	static
 drivers/mmc/fsl_esdhc.c:593:12:esdhc_init	24	static
-drivers/mmc/fsl_esdhc.c:322:1:esdhc_send_cmd	32	static
+drivers/mmc/fsl_esdhc.c:322:1:esdhc_send_cmd	40	static
 drivers/mmc/fsl_esdhc.c:686:5:fsl_esdhc_initialize	16	static
 drivers/mmc/fsl_esdhc.c:784:5:fsl_esdhc_mmc_init	8	static
 drivers/mmc/fsl_esdhc.c:834:6:fdt_fixup_esdhc	24	static

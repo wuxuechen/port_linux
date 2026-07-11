@@ -1,4 +1,4 @@
-cmd_lib/libfdt/fdt_rw.o := arm-linux-gnueabihf-gcc -Wp,-MD,lib/libfdt/.fdt_rw.o.d -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include -Iinclude   -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(fdt_rw)"  -D"KBUILD_MODNAME=KBUILD_STR(fdt_rw)" -c -o lib/libfdt/fdt_rw.o lib/libfdt/fdt_rw.c
+cmd_lib/libfdt/fdt_rw.o := arm-linux-gnueabihf-gcc -Wp,-MD,lib/libfdt/.fdt_rw.o.d -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include -Iinclude   -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(fdt_rw)"  -D"KBUILD_MODNAME=KBUILD_STR(fdt_rw)" -c -o lib/libfdt/fdt_rw.o lib/libfdt/fdt_rw.c
 
 source_lib/libfdt/fdt_rw.o := lib/libfdt/fdt_rw.c
 
@@ -6,7 +6,7 @@ deps_lib/libfdt/fdt_rw.o := \
   include/libfdt_env.h \
   include/compiler.h \
     $(wildcard include/config/use/stdint.h) \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include/stddef.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
   include/linux/string.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
@@ -16,7 +16,7 @@ deps_lib/libfdt/fdt_rw.o := \
   arch/arm/include/asm/types.h \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include/stdbool.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   arch/arm/include/asm/string.h \
     $(wildcard include/config/use/arch/memcpy.h) \
     $(wildcard include/config/use/arch/memset.h) \

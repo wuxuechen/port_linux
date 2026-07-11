@@ -6,8 +6,8 @@ lib/hashtable.c:428:13:_hdelete.isra	16	static
 lib/hashtable.c:100:5:hcreate_r	16	static
 lib/hashtable.c:139:6:hdestroy_r	24	static
 lib/hashtable.c:201:5:hmatch_r	32	static
-lib/hashtable.c:271:5:hsearch_r	64	static
+lib/hashtable.c:271:5:hsearch_r	56	static
 lib/hashtable.c:442:5:hdelete_r	72	static
-lib/hashtable.c:590:9:hexport_r	64	dynamic
+lib/hashtable.c:590:9:hexport_r	56	dynamic
 lib/hashtable.c:777:5:himport_r	80	dynamic
 lib/hashtable.c:967:5:hwalk_r	24	static

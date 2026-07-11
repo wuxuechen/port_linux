@@ -7,4 +7,4 @@ lib/libfdt/fdt_sw.c:120:5:fdt_finish_reservemap	16	static
 lib/libfdt/fdt_sw.c:125:5:fdt_begin_node	24	static
 lib/libfdt/fdt_sw.c:141:5:fdt_end_node	16	static
 lib/libfdt/fdt_sw.c:178:5:fdt_property	40	static
-lib/libfdt/fdt_sw.c:200:5:fdt_finish	24	static
+lib/libfdt/fdt_sw.c:200:5:fdt_finish	32	static

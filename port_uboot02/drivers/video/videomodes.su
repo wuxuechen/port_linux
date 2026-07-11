@@ -4,4 +4,4 @@ drivers/video/videomodes.c:234:5:video_get_video_mode	32	static
 drivers/video/videomodes.c:292:6:video_get_ctfb_res_modes	64	static
 drivers/video/videomodes.c:331:6:video_get_option_string	32	static
 drivers/video/videomodes.c:362:5:video_get_option_int	24	static
-drivers/video/videomodes.c:387:5:video_edid_dtd_to_ctfb_res_modes	16	static
+drivers/video/videomodes.c:387:5:video_edid_dtd_to_ctfb_res_modes	40	static

@@ -1,4 +1,4 @@
-drivers/input/input.c:507:12:_input_send_keycodes	56	dynamic
+drivers/input/input.c:507:12:_input_send_keycodes	64	dynamic
 drivers/input/input.c:203:5:input_tstc	8	static
 drivers/input/input.c:212:5:input_getc	8	static
 drivers/input/input.c:546:5:input_send_keycodes	0	static

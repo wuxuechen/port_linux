@@ -13,7 +13,7 @@ drivers/core/uclass.c:340:5:uclass_get_device_by_name	16	static
 drivers/core/uclass.c:351:5:uclass_get_device_by_seq	24	static
 drivers/core/uclass.c:368:5:uclass_get_device_by_of_offset	16	static
 drivers/core/uclass.c:392:5:uclass_first_device	16	static
-drivers/core/uclass.c:404:5:uclass_next_device	24	static
+drivers/core/uclass.c:404:5:uclass_next_device	16	static
 drivers/core/uclass.c:416:5:uclass_bind_device	8	static
 drivers/core/uclass.c:443:5:uclass_unbind_device	8	static
 drivers/core/uclass.c:460:5:uclass_resolve_seq	24	static

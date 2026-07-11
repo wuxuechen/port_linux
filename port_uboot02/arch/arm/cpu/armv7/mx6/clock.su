@@ -2,9 +2,9 @@ arch/arm/cpu/armv7/mx6/clock.c:386:12:get_ipg_clk	8	static
 arch/arm/cpu/armv7/mx6/clock.c:397:12:get_ipg_per_clk	8	static
 arch/arm/cpu/armv7/mx6/clock.c:622:12:enable_pll_video.constprop	16	static
 arch/arm/cpu/armv7/mx6/clock.c:572:12:disable_lcdif_clock.isra	8	static
-arch/arm/cpu/armv7/mx6/clock.c:414:12:get_uart_clk	16	static
 arch/arm/cpu/armv7/mx6/clock.c:294:12:mxc_get_pll_pfd	24	static
 arch/arm/cpu/armv7/mx6/clock.c:1122:12:get_usdhc_clk	16	static
+arch/arm/cpu/armv7/mx6/clock.c:414:12:get_uart_clk	16	static
 arch/arm/cpu/armv7/mx6/clock.c:28:6:enable_ocotp_clk	0	static
 arch/arm/cpu/armv7/mx6/clock.c:95:6:enable_usboh3_clk	0	static
 arch/arm/cpu/armv7/mx6/clock.c:109:6:enable_enet_clk	16	static

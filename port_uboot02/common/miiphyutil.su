@@ -7,7 +7,7 @@ common/miiphyutil.c:92:6:miiphy_register	32	static
 common/miiphyutil.c:157:6:mdio_free	0	static
 common/miiphyutil.c:162:5:mdio_register	16	static
 common/miiphyutil.c:183:5:mdio_unregister	0	static
-common/miiphyutil.c:197:6:mdio_list_devices	24	static
+common/miiphyutil.c:197:6:mdio_list_devices	32	static
 common/miiphyutil.c:222:5:miiphy_set_current_dev	8	static
 common/miiphyutil.c:272:24:miiphy_get_active_dev	16	static
 common/miiphyutil.c:237:17:mdio_get_current_dev	0	static

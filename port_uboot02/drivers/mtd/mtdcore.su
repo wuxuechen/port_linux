@@ -1,6 +1,6 @@
 drivers/mtd/mtdcore.c:95:6:idr_remove	0	static
 drivers/mtd/mtdcore.c:102:7:idr_find	0	static
-drivers/mtd/mtdcore.c:110:7:idr_get_next	8	static
+drivers/mtd/mtdcore.c:110:7:idr_get_next	16	static
 drivers/mtd/mtdcore.c:128:5:idr_alloc	0	static
 drivers/mtd/mtdcore.c:153:18:__mtd_next_device	16	static
 drivers/mtd/mtdcore.c:509:5:del_mtd_device	8	static

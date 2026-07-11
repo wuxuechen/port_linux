@@ -1,4 +1,4 @@
-cmd_common/bootm.o := arm-linux-gnueabihf-gcc -Wp,-MD,common/.bootm.o.d -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include -Iinclude   -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(bootm)"  -D"KBUILD_MODNAME=KBUILD_STR(bootm)" -c -o common/bootm.o common/bootm.c
+cmd_common/bootm.o := arm-linux-gnueabihf-gcc -Wp,-MD,common/.bootm.o.d -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include -Iinclude   -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -Wall -Wstrict-prototypes -Wno-format-security -fno-builtin -ffreestanding -Os -fno-stack-protector -fno-delete-null-pointer-checks -g -fstack-usage -Wno-format-nonliteral -Werror=date-time -D__ARM__ -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a    -D"KBUILD_STR(s)=#s" -D"KBUILD_BASENAME=KBUILD_STR(bootm)"  -D"KBUILD_MODNAME=KBUILD_STR(bootm)" -c -o common/bootm.o common/bootm.c
 
 source_common/bootm.o := common/bootm.c
 
@@ -292,7 +292,7 @@ deps_common/bootm.o := \
   arch/arm/include/asm/types.h \
     $(wildcard include/config/arm64.h) \
     $(wildcard include/config/phys/64bit.h) \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include/stdbool.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdbool.h \
   include/linux/sizes.h \
   include/configs/mx6_common.h \
     $(wildcard include/config/arm/errata/743622.h) \
@@ -419,7 +419,7 @@ deps_common/bootm.o := \
   arch/arm/include/asm/ptrace.h \
   arch/arm/include/asm/proc-armv/ptrace.h \
     $(wildcard include/config/arm/thumb.h) \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include/stdarg.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stdarg.h \
   include/linux/kernel.h \
   include/part.h \
     $(wildcard include/config/lba48.h) \
@@ -462,7 +462,7 @@ deps_common/bootm.o := \
     $(wildcard include/config/sys/boot/get/kbd.h) \
     $(wildcard include/config/fit/best/match.h) \
   include/compiler.h \
-  /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include/stddef.h \
+  /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include/stddef.h \
   arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/byteorder/swab.h \

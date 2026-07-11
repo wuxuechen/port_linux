@@ -1,4 +1,4 @@
-cmd_arch/arm/lib/relocate.o := arm-linux-gnueabihf-gcc -Wp,-MD,arch/arm/lib/.relocate.o.d -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/15/include -Iinclude   -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -D__ASSEMBLY__ -g -D__ARM__ -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a   -c -o arch/arm/lib/relocate.o arch/arm/lib/relocate.S
+cmd_arch/arm/lib/relocate.o := arm-linux-gnueabihf-gcc -Wp,-MD,arch/arm/lib/.relocate.o.d -nostdinc -isystem /usr/lib/gcc-cross/arm-linux-gnueabihf/13/include -Iinclude   -I./arch/arm/include -include ./include/linux/kconfig.h -D__KERNEL__ -D__UBOOT__ -D__ASSEMBLY__ -g -D__ARM__ -marm -mno-thumb-interwork -mabi=aapcs-linux -mword-relocations -fno-pic -mno-unaligned-access -ffunction-sections -fdata-sections -fno-common -ffixed-r9 -msoft-float -pipe -march=armv7-a   -c -o arch/arm/lib/relocate.o arch/arm/lib/relocate.S
 
 source_arch/arm/lib/relocate.o := arch/arm/lib/relocate.S
 

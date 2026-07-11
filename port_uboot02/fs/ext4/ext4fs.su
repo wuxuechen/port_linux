@@ -1,6 +1,6 @@
 fs/ext4/ext4fs.c:33:24:get_fs	0	static
 fs/ext4/ext4fs.c:38:6:ext4fs_free_node	0	static
-fs/ext4/ext4fs.c:49:5:ext4fs_read_file	104	static
+fs/ext4/ext4fs.c:49:5:ext4fs_read_file	112	static
 fs/ext4/ext4fs.c:158:5:ext4fs_ls	16	static
 fs/ext4/ext4fs.c:179:5:ext4fs_exists	16	static
 fs/ext4/ext4fs.c:188:5:ext4fs_size	0	static

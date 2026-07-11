@@ -9,7 +9,7 @@ common/cli_hush.c:3345:14:xrealloc	8	static
 common/cli_hush.c:3668:12:do_showvar	40	static
 common/cli_hush.c:2281:12:is_assignment	0	static
 common/cli_hush.c:884:12:b_addchr	16	static
-common/cli_hush.c:1092:12:file_get	24	static
+common/cli_hush.c:1092:12:file_get	32	static
 common/cli_hush.c:2542:12:done_command.isra	16	static
 common/cli_hush.c:2591:12:done_pipe.isra	16	static
 common/cli_hush.c:2451:12:done_word	24	static

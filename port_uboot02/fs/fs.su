@@ -1,3 +1,4 @@
+fs/fs.c:27:19:fs_probe_unsupported	8	static
 fs/fs.c:34:19:fs_ls_unsupported	0	static
 fs/fs.c:39:19:fs_exists_unsupported	0	static
 fs/fs.c:44:19:fs_size_unsupported	0	static
@@ -5,7 +6,6 @@ fs/fs.c:49:19:fs_read_unsupported	0	static
 fs/fs.c:63:20:fs_close_unsupported	0	static
 fs/fs.c:181:28:fs_get_info	0	static
 fs/fs.c:238:13:fs_close	8	static
-fs/fs.c:27:19:fs_probe_unsupported	8	static
 fs/fs.c:56:19:fs_write_unsupported	0	static
 fs/fs.c:67:19:fs_uuid_unsupported	0	static
 fs/fs.c:195:5:fs_set_blk_dev	32	static

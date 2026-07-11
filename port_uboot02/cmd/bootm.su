@@ -1,4 +1,4 @@
-cmd/bootm.c:97:5:do_bootm	48	static
+cmd/bootm.c:97:5:do_bootm	56	static
 cmd/bootm.c:230:5:do_bootd	8	static
 cmd/bootm.c:273:12:image_info	8	static
 cmd/bootm.c:255:12:do_iminfo	24	static

@@ -2,7 +2,7 @@ common/dlmalloc.c:1510:7:sbrk	16	static
 common/dlmalloc.c:1530:6:mem_malloc_init	0	static
 common/dlmalloc.c:3063:5:malloc_trim	16	static
 common/dlmalloc.c:2438:6:free	16	static
-common/dlmalloc.c:2166:9:malloc	32	static
+common/dlmalloc.c:2166:9:malloc	40	static
 common/dlmalloc.c:2961:9:calloc	24	static
 common/dlmalloc.c:2576:9:realloc	32	static
 common/dlmalloc.c:2802:9:memalign	24	static

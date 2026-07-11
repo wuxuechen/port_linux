@@ -9,7 +9,7 @@ lib/libfdt/fdt_ro.c:179:13:fdt_get_name	24	static
 lib/libfdt/fdt_ro.c:199:5:fdt_first_property_offset	8	static
 lib/libfdt/fdt_ro.c:209:5:fdt_next_property_offset	8	static
 lib/libfdt/fdt_ro.c:217:28:fdt_get_property_by_offset	16	static
-lib/libfdt/fdt_ro.c:238:28:fdt_get_property_namelen	40	static
+lib/libfdt/fdt_ro.c:238:28:fdt_get_property_namelen	32	static
 lib/libfdt/fdt_ro.c:262:28:fdt_get_property	32	static
 lib/libfdt/fdt_ro.c:270:13:fdt_getprop_namelen	16	static
 lib/libfdt/fdt_ro.c:282:13:fdt_getprop_by_offset	16	static
@@ -25,7 +25,7 @@ lib/libfdt/fdt_ro.c:434:5:fdt_parent_offset	16	static
 lib/libfdt/fdt_ro.c:444:5:fdt_node_offset_by_prop_value	40	static
 lib/libfdt/fdt_ro.c:471:5:fdt_node_offset_by_phandle	16	static
 lib/libfdt/fdt_ro.c:496:5:fdt_stringlist_contains	24	static
-lib/libfdt/fdt_ro.c:513:5:fdt_count_strings	32	static
+lib/libfdt/fdt_ro.c:513:5:fdt_count_strings	24	static
 lib/libfdt/fdt_ro.c:533:5:fdt_find_string	40	static
 lib/libfdt/fdt_ro.c:559:5:fdt_get_string_index	24	static
 lib/libfdt/fdt_ro.c:583:5:fdt_get_string	16	static

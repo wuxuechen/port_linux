@@ -28,7 +28,7 @@ drivers/mmc/mmc.c:1650:19:mmc_get_dev	8	static
 drivers/mmc/mmc.c:1765:5:mmc_set_dsr	0	static
 drivers/mmc/mmc.c:1772:12:cpu_mmc_init	0	static
 drivers/mmc/mmc.c:1778:12:board_mmc_init	0	static
-drivers/mmc/mmc.c:1785:6:print_mmc_devices	24	static
+drivers/mmc/mmc.c:1785:6:print_mmc_devices	32	static
 drivers/mmc/mmc.c:1817:5:get_mmc_num	0	static
 drivers/mmc/mmc.c:1822:6:mmc_set_preinit	0	static
 drivers/mmc/mmc.c:1887:5:mmc_initialize	16	static

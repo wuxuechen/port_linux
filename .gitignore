@@ -1,3 +1,4 @@
+# ---- 原有 CMake 忽略项（保持不变） ----
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,9 +11,95 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 
-# CLion
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#cmake-build-*
+# ---- 新增：Linux 内核 / U‑Boot 编译产物 ----
+# 目标文件及临时文件
+*.o
+*.a
+*.ko
+*.so
+*.cmd
+*.symvers
+*.order
+*.mod.c
+*.mod.o
+*.bin
+*.img
+*.dtb
+*.dtbo
+*.elf
+*.map
+*.srec
+*.lst
+*.dwo
+*.dbg
+*.gdb
+*.pot
+*.gmo
+*.mo
+*.exe
+*.out
+*.log
+*.err
+*.orig
+*.rej
+*.patch
+*.diff
+
+# 内核配置文件
+.config
+.config.old
+.config.cmd
+.config.tmp
+
+# 内核生成目录及关键文件
+include/config/
+include/generated/
+scripts/basic/
+scripts/mod/
+scripts/kconfig/
+arch/*/boot/dts/*.dtb
+arch/*/boot/*.dtb
+arch/*/boot/*.img
+arch/*/boot/uImage
+arch/*/boot/zImage
+vmlinux
+vmlinux.o
+System.map
+Module.symvers
+modules.builtin
+modules.order
+.tmp_versions
+.tmp_kallsyms*
+.tmp_vmlinux*
+.tmp_System.map
+.tmp_exports*
+.tmp_mem*
+.tmp_*
+
+# U‑Boot 相关文件
+u-boot
+u-boot.bin
+u-boot.img
+u-boot.srec
+u-boot.dtb
+u-boot-dtb.bin
+u-boot-dtb.img
+MLO
+SPL
+SPL.bin
+*.scr
+*.itb
+*.fit
+*.fdt
+
+# 常用构建输出目录（根据个人习惯可调整）
+/build/
+/output/
+/out/
+/obj/
+/bin/
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~

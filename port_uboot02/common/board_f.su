@@ -15,8 +15,8 @@ common/board_f.c:800:12:initf_dm	0	static
 common/board_f.c:724:12:setup_reloc	8	static
 common/board_f.c:710:12:reloc_fdt	8	static
 common/board_f.c:528:12:reserve_board	8	static
-common/board_f.c:284:12:arch_cpu_init	0	static
 common/board_f.c:819:12:reserve_arch	0	static
+common/board_f.c:284:12:arch_cpu_init	0	static
 common/board_f.c:484:12:reserve_trace	0	static
 common/board_f.c:541:12:setup_machine	0	static
 common/board_f.c:597:12:display_new_sp	0	static

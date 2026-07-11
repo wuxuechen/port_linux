@@ -9,7 +9,7 @@ cmd/mmc.c:559:12:do_mmc_hwpartition	96	static
 cmd/mmc.c:484:12:do_mmc_list	8	static
 cmd/mmc.c:443:12:do_mmc_dev	24	static
 cmd/mmc.c:424:12:do_mmc_part	8	static
-cmd/mmc.c:159:12:do_mmcinfo	32	static
+cmd/mmc.c:159:12:do_mmcinfo	40	static
 cmd/mmc.c:668:12:do_mmc_boot_resize	24	static
 cmd/mmc.c:385:12:do_mmc_erase	24	static
 cmd/mmc.c:355:12:do_mmc_write	24	static

@@ -8,4 +8,4 @@ cmd/load.c:566:13:s1_sendpacket.constprop	16	static
 cmd/load.c:129:14:load_serial	832	static
 cmd/load.c:39:12:do_load_serial	16	static
 cmd/load.c:954:14:load_serial_ymodem.isra	1056	static
-cmd/load.c:417:12:do_load_serial_bin	48	static
+cmd/load.c:417:12:do_load_serial_bin	40	static
