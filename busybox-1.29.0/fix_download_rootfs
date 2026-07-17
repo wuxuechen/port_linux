@@ -1,0 +1,1 @@
+setenv bootargs 'console=ttymxc0,115200 root=/dev/nfs rw nfsroot=169.254.247.235:/home/autumn/nfs/rootfs,vers=3,tcp ip=169.254.247.236:169.254.247.235:169.254.247.235:255.255.255.0::eth0'
